@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /usr/local -name node 2>/dev/null | head -5)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/opt/homebrew/bin/node --version)",
+      "Bash(npm --version)",
+      "Bash(find /opt/homebrew -name npm 2>/dev/null | head -1 || find /usr/local -name npm 2>/dev/null | head -1)",
+      "Bash(/opt/homebrew/bin/node -v)",
+      "Bash(/opt/homebrew/bin/npm -v)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__computer",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -v http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/_next/static/pages/_app.js)",
+      "Bash(pkill -f \"next dev\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -I http://localhost:3000)",
+      "Bash(curl -I http://localhost:3000/emails)",
+      "Bash(netstat -tuln)",
+      "Bash(curl -v http://127.0.0.1:3000/)",
+      "Bash(curl -s http://127.0.0.1:3000/test)",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "mcp__Claude_in_Chrome__tabs_create_mcp",
+      "mcp__Claude_in_Chrome__read_page",
+      "Bash(ls -la ~/Downloads/*.json 2>/dev/null | head -5)"
+    ]
+  }
+}
