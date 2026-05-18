@@ -24,7 +24,12 @@
       "mcp__Claude_in_Chrome__browser_batch",
       "mcp__Claude_in_Chrome__tabs_create_mcp",
       "mcp__Claude_in_Chrome__read_page",
-      "Bash(ls -la ~/Downloads/*.json 2>/dev/null | head -5)"
+      "Bash(ls -la ~/Downloads/*.json 2>/dev/null | head -5)",
+      "mcp__404b7cc9-cf03-4853-917c-38b25fec23e4__deploy_to_vercel",
+      "mcp__Claude_in_Chrome__form_input",
+      "Bash(ls -la ~/.ssh/ | head -20)",
+      "mcp__Claude_in_Chrome__find",
+      "mcp__Claude_in_Chrome__get_page_text"
     ]
   }
 }

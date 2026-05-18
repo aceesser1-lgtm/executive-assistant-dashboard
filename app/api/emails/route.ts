@@ -56,7 +56,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       success: true,
       message: 'Email sent (placeholder)',
-      email: { to, subject },
+      email: { to, subject, message },
     });
   } catch (error) {
     console.error('Email sending error:', error);

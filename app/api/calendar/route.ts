@@ -56,7 +56,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       success: true,
       message: 'Event created (placeholder)',
-      event: { title, startTime, endTime },
+      event: { title, startTime, endTime, attendees },
     });
   } catch (error) {
     console.error('Event creation error:', error);
